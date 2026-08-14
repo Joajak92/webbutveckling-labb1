@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jockes Techbutik</title>
+  </head>
+  <body>
+    <header>
+      <h1>Jockes Techbutik</h1>
+      <nav>
+        <ul>
+          <li><a href="#start">Start</a></li>
+          <li><a href="#products">Produkter</a></li>
+          <li><a href="#about">Om Oss</a></li>
+          <li><a href="#contact">Kontakta Oss</a></li>
+          <li><a href="#privacy">integritetspolicy</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="start">
+        <h2>Välkommen till Jockes Techbutik!</h2>
+        <p>
+          Vi är en nystartad butik där du hittar en blandning av det senaste<br />
+          inom tech men även gamla retro spelkonsoller, begagnade datorer<br />
+          och äldre telefonmodeller till bra pris.
+        </p>
+        <a href="#products" class="product-link"
+          >Tryck här för att se våra produkter
+        </a>
+        <img
+          src="retro.jpg"
+          alt="Bild på två kontroller till retro-konsoll"
+          class="img-start"
+        />
+      </section>
+      <section id="products">
+        <h2>Våra produkter</h2>
+        <article class="product">
+          <h3>Super Nintendo</h3>
+          <img
+            src="supernintendo.jpg"
+            alt="Bild på en super nintendo konsoll"
+            class="img-products"
+          />
+          <p>
+            Superninento konsoll med två spelkontroller, både konsollen och
+            kontrollerna är i bra skick.
+          </p>
+          <p>Pris: 999kr</p>
+        </article>
+        <article class="product">
+          <h3>Begagnad Acer bärbar dator</h3>
+          <img
+            src="acerlaptop.jpg"
+            alt="Bild på en acer bärbar dator"
+            class="img-products"
+          />
+          <p>En begagnad Acer laptop med bra prestanda.</p>
+          <p>Pris: 1199kr</p>
+        </article>
+        <article class="product">
+          <h3>iPhone 15 Pro</h3>
+          <img
+            src="iPhone.jpg"
+            alt="Bild på en iPhone 15 Pro"
+            class="img-products"
+          />
+          <p>En begagnad iPhone 15 Pro i bra skick.</p>
+          <p>Pris: 1399</p>
+        </article>
+        <article class="product">
+          <h3>GameBoy color</h3>
+          <img
+            src="gameboy.jpg"
+            alt="Bild på ett gameboy color"
+            class="img-products"
+          />
+          <p>Ett GameBoy color i färgen rosa.</p>
+          <p>Pris: 399kr</p>
+        </article>
+        <article class="product">
+          <h3>Powerbank</h3>
+          <img
+            src="powerbank.jpg"
+            alt="Bild på en vit powerbank med tillhörande sladd"
+            class="img-products"
+          />
+          <p>
+            En vit powerbank med tillhörande sladd, perfekt för att ladda
+            telefonen när du är på språng.
+          </p>
+          <p>Pris: 199kr</p>
+        </article>
+      </section>
+      <section id="about">
+        <h2>Om Oss</h2>
+        <p>
+          Vi är en nystartad webbshop med fokus på teknik. Vi har allt från de
+          senaste teknikprodukterna till begagnade och retro produkter.
+        </p>
+        <p>
+          Vi på Jockes Techbutik är ett gäng teknikentusiaster som alltid har
+          tyckt om teknik och för ett år sedan bestämde vi oss för att följa
+          våran dröm och öppna upp en webshop med mål att även öppna en fysisk
+          butik i framtiden.
+        </p>
+        <img
+          src="omoss.jpg"
+          alt="Bild på två personer som lagar elektronikprodukter"
+          class="img-omoss"
+        />
+      </section>
+      <section id="contact">
+        <h2>Kontakta Oss</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Namn</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-post</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Ämne</label>
+            <select name="subject" id="subject">
+              <option value="order">Beställning</option>
+              <option value="complaint">Reklamation</option>
+              <option value="other">Övrigt</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Meddelande</label>
+            <textarea name="message" id="message" required></textarea>
+          </div>
+          <button type="submit">Skicka</button>
+        </form>
+        <p>
+          Personuppgifter används för att kunna svara på meddelandet, läs mer om
+          det i vår <a href="#privacy">Integritetspolicy</a>.
+        </p>
+      </section>
+      <section id="privacy">
+        <h2>Integritetspolicy</h2>
+        <p>
+          I vårat kontaktformulär efterfrågar vi ditt namn och e-post för att
+          kunna svara på meddelandet via mail. <br />
+          För att kontakta oss kan du skicka ett meddelande via vårat formulär
+          på vår <a href="#contact">Kontakta Oss</a> sektion.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>Jockes Techbutik</p>
+      <p>
+        Techgatan 1, 12345 Stockholm<br />
+        Telefon: 070-123456<br />
+        E-post: Techbutiken@mail.com
+      </p>
+      <p>Denna sida är skyddad av Copyright!</p>
+      <a href="#policy">Läs våran integritetspolicy här</a>
+    </footer>
+  </body>
+</html>

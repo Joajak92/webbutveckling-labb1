@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+.img-start{
+    width: 200px;
+}
+
+.img-products{
+    width: 150px;
+}
+
+.product-link{
+    display: block;
+}
+
+.img-omoss{
+    width: 200px;
+}
