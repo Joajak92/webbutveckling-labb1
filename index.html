@@ -38,62 +38,65 @@
       </section>
       <section id="products">
         <h2>Våra produkter</h2>
-        <article class="product">
-          <img
-            src="supernintendo.jpg"
-            alt="Bild på en super nintendo konsoll"
-            class="img-products"
-          />
-          <h3>Super Nintendo</h3>
-          <p>
-            Superninento konsoll med två spelkontroller, både konsollen och
-            kontrollerna är i bra skick.
-          </p>
-          <p>Pris: 999kr</p>
-        </article>
-        <article class="product">
-          <img
-            src="acerlaptop.jpg"
-            alt="Bild på en acer bärbar dator"
-            class="img-products"
-          />
-          <h3>Begagnad bärbar dator av märket Acer</h3>
-          <p>En begagnad Acer laptop med bra prestanda.</p>
-          <p>Pris: 1199kr</p>
-        </article>
-        <article class="product">
-          <img
-            src="iPhone.jpg"
-            alt="Bild på en iPhone 15 Pro"
-            class="img-products"
-          />
-          <h3>iPhone 15 Pro</h3>
-          <p>En begagnad iPhone 15 Pro i bra skick.</p>
-          <p>Pris: 1399</p>
-        </article>
-        <article class="product">
-          <img
-            src="gameboy.jpg"
-            alt="Bild på ett gameboy color"
-            class="img-products"
-          />
-          <h3>GameBoy Color</h3>
-          <p>Ett GameBoy color i färgen rosa.</p>
-          <p>Pris: 399kr</p>
-        </article>
-        <article class="product">
-          <img
-            src="powerbank.jpg"
-            alt="Bild på en vit powerbank med tillhörande sladd"
-            class="img-products"
-          />
-          <h3>Powerbank</h3>
-          <p>
-            En vit powerbank med tillhörande sladd, perfekt för att ladda
-            telefonen när du är på språng.
-          </p>
-          <p>Pris: 199kr</p>
-        </article>
+        <p>Här är alla våra produkter som vi har på lager just nu.</p>
+        <div class="product-list">
+          <article class="product">
+            <img
+              src="supernintendo.jpg"
+              alt="Bild på en super nintendo konsoll"
+              class="img-products"
+            />
+            <h3>Super Nintendo</h3>
+            <p>
+              Superninento konsoll med två spelkontroller, både konsollen och
+              kontrollerna är i bra skick.
+            </p>
+            <p>Pris: 999kr</p>
+          </article>
+          <article class="product">
+            <img
+              src="acerlaptop.jpg"
+              alt="Bild på en acer bärbar dator"
+              class="img-products"
+            />
+            <h3>Begagnad bärbar dator av märket Acer</h3>
+            <p>En begagnad Acer laptop med bra prestanda.</p>
+            <p>Pris: 1199kr</p>
+          </article>
+          <article class="product">
+            <img
+              src="iPhone.jpg"
+              alt="Bild på en iPhone 15 Pro"
+              class="img-products"
+            />
+            <h3>iPhone 15 Pro</h3>
+            <p>En begagnad iPhone 15 Pro i bra skick.</p>
+            <p>Pris: 1399</p>
+          </article>
+          <article class="product">
+            <img
+              src="gameboy.jpg"
+              alt="Bild på ett gameboy color"
+              class="img-products"
+            />
+            <h3>GameBoy Color</h3>
+            <p>Ett GameBoy color i färgen rosa.</p>
+            <p>Pris: 399kr</p>
+          </article>
+          <article class="product">
+            <img
+              src="powerbank.jpg"
+              alt="Bild på en vit powerbank med tillhörande sladd"
+              class="img-products"
+            />
+            <h3>Powerbank</h3>
+            <p>
+              En vit powerbank med tillhörande sladd, perfekt för att ladda
+              telefonen när du är på språng.
+            </p>
+            <p>Pris: 199kr</p>
+          </article>
+        </div>
       </section>
       <section id="about">
         <h2>Om Oss</h2>
@@ -120,11 +123,23 @@
         <form>
           <div class="form-group">
             <label for="name">Namn:</label>
-            <input type="text" id="name" name="name" required autocomplete="name" />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              autocomplete="name"
+            />
           </div>
           <div class="form-group">
             <label for="email">E-post:</label>
-            <input type="email" id="email" name="email" required autocomplete="email" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              autocomplete="email"
+            />
           </div>
           <div class="form-group">
             <label for="subject">Ämne:</label>
@@ -138,7 +153,7 @@
             <label for="message">Meddelande:</label>
             <textarea name="message" id="message" required></textarea>
           </div>
-          <button type="submit">Skicka</button>
+          <button type="submit" class="form-group">Skicka</button>
         </form>
         <p>
           Personuppgifter används för att kunna svara på meddelandet, läs mer om
