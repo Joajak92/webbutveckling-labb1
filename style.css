@@ -141,6 +141,7 @@ a:visited {
 }
 
 .featured-products {
+  position: relative;
   width: 33%;
   box-sizing: border-box;
   padding: 16px;
