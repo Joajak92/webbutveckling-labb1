@@ -17,6 +17,11 @@
           <li><a href="#about">Om Oss</a></li>
           <li><a href="#contact">Kontakta Oss</a></li>
           <li><a href="#privacy">Integritetspolicy</a></li>
+          <li class="cart">
+            <button id="toggleCartButton" type="button">
+              Varukorg (<span id="cartCount">0</span>)
+            </button>
+          </li>
         </ul>
       </nav>
     </header>
@@ -99,6 +104,17 @@
               kontrollerna är i bra skick.
             </p>
             <p>Pris: 999kr</p>
+            <div class="quantity">
+              <label for="quantity-supernintendo">Antal:</label>
+              <input
+                type="number"
+                id="quantity-supernintendo"
+                class="quantityInput"
+                value="1"
+                min="1"
+                max="10"
+              />
+            </div>
             <button class="buyButton" data-name="Super Nintendo">
               Lägg i varukorg
             </button>
@@ -113,6 +129,17 @@
             <h3>Begagnad dator Acer</h3>
             <p>En begagnad Acer laptop med bra prestanda.</p>
             <p>Pris: 1199kr</p>
+            <div class="quantity">
+              <label for="quantity-acer">Antal:</label>
+              <input
+                type="number"
+                id="quantity-acer"
+                class="quantityInput"
+                value="1"
+                min="1"
+                max="10"
+              />
+            </div>
             <button class="buyButton" data-name="Begagnad dator Acer">
               Lägg i varukorg
             </button>
@@ -127,6 +154,17 @@
             <h3>iPhone 15 Pro</h3>
             <p>En begagnad iPhone 15 Pro i bra skick.</p>
             <p>Pris: 1399</p>
+            <div class="quantity">
+              <label for="quantity-iphone">Antal:</label>
+              <input
+                type="number"
+                id="quantity-iphone"
+                class="quantityInput"
+                value="1"
+                min="1"
+                max="10"
+              />
+            </div>
             <button class="buyButton" data-name="iPhone 15 Pro">
               Lägg i varukorg
             </button>
@@ -141,6 +179,17 @@
             <h3>GameBoy Color</h3>
             <p>Ett GameBoy color i färgen rosa.</p>
             <p>Pris: 399kr</p>
+            <div class="quantity">
+              <label for="quantity-gameboy">Antal:</label>
+              <input
+                type="number"
+                id="quantity-gameboy"
+                class="quantityInput"
+                value="1"
+                min="1"
+                max="10"
+              />
+            </div>
             <button class="buyButton" data-name="GameBoy Color">
               Lägg i varukorg
             </button>
@@ -157,10 +206,30 @@
               telefonen när du är på språng.
             </p>
             <p>Pris: 199kr</p>
+            <div class="quantity">
+              <label for="quantity-powerbank">Antal:</label>
+              <input
+                type="number"
+                id="quantity-powerbank"
+                class="quantityInput"
+                value="1"
+                min="1"
+                max="10"
+              />
+            </div>
             <button class="buyButton" data-name="Powerbank">
               Lägg i varukorg
             </button>
           </article>
+        </div>
+        <div id="cartPanel" class="cart-panel hide">
+          <div class="cart-header">
+            <h2>Din varukorg</h2>
+            <button id="closeCartButton" type="button">Stäng</button>
+          </div>
+          <ul id="cartItems">
+            <li>Varukorgen är tom</li>
+          </ul>
         </div>
       </section>
       <section id="about">
